@@ -3,8 +3,8 @@ sqlite_file = "path/to/sqlite.db"  # 用于 migrate_sqlite_to_pg.py 和 sync_pg_
 
 [postgresql.cloud]
 dbname = "your_cloud_db"
-user = "your_cloud_user"
-password = "your_cloud_password"
+user = "your_cloud_user" 
+password = "your_cloud_password" 
 host = "your.cloud.host"
 port = 5432
 
@@ -14,3 +14,10 @@ user = "your_local_user"
 password = "your_local_password"
 host = "localhost"
 port = 5432
+
+[mysql]
+host = "your.cloud.host"   
+port = 4000
+user = "your_cloud_user" 
+password = "your_cloud_password" 
+database = "your_cloud_db"
